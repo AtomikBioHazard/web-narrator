@@ -1,0 +1,39 @@
+@use 'variables'
+
+main
+  display: grid
+  grid-template-rows: 200px repeat(auto-fill , 2fr)
+  padding: 20px 0
+  select
+    margin: 20px
+    height: 30px
+    width: 80%
+    margin-right: auto
+    margin-left: auto
+    text-align: center
+    font-size: 1.5rem
+  textarea
+    margin-left: auto
+    margin-right: auto
+    resize: none
+    overflow: auto
+    outline: none
+    font-size: 1.5rem
+    width: 80%
+  button
+    margin-left: auto
+    margin-right: auto
+    margin-top: 20px
+    width: 60%
+    height: 80px
+    background-color: variables.$secondary-background
+    color: variables.$secondary-font-color
+    font-size: 2rem
+    font-weight: bold
+    border-radius: 10px
+    &:hover
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)
+      -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75)
+      background-color: rgba(variables.$primary-font-color, .75)
+      color: variables.$secondary-background

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Narrator</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>Web Narrator</h1>
+  </header>
+
+  <main class="container">
+    <select id="speech-selection">
+      <option value="">-- Pick a voice --</option>
+    </select><br><br><br>
+
+    <textarea id="speech-text" cols="50" rows="10" placeholder="Enter the text you want me to read out for you..." autocomplete spellcheck required></textarea><br><br><br>
+
+    <button id="speech-btn">Read Text</button>
+  </main>
+
+  <footer>
+    <section class="social-media">
+      <div class="container">
+        <a class="facebook" href="https://www.facebook.com/AtomikBioHazard"><i class="fa fa-facebook"></i></a>
+        <a class="twitter" href="https://twitter.com/AtomikBioHazard"><i class="fa fa-twitter"></i></a>
+        <a class="github" href="https://github.com/AtomikBioHazard"><i class="fa fa-github"></i></a>
+        <a class="instagram" href="https://www.instagram.com/dietrich_fdz/"><i class="fa fa-instagram"></i></a>
+      </div>
+    </section>
+
+    <p>Created by ABH</p>
+  </footer>
+
+  <script src="bundle.js" type="module"></script>
+</body>
+</html>
